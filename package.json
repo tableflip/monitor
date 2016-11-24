@@ -1,0 +1,17 @@
+{
+  "name": "monitor",
+  "version": "0.0.0",
+  "description": "Upmon monitor for TABLEFLIP services",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Alan Shaw",
+  "license": "ISC",
+  "dependencies": {
+    "upmon": "^1.0.0",
+    "upmon-graf": "^0.5.0",
+    "upmon-mail": "^1.0.0",
+    "upmon-sms": "^1.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ping": {
+    // Time in ms between pings
+    "interval": 5000,
+    // URL's of services to ping
+    "services": ["http://localhost:8000/"]
+  },
+  "mail": {
+    // Email from address
+    "from": "upmon@example.org",
+    // Email to address(es)
+    "to": ["sysadmin@example.org"],
+    // Nodemailer transport options
+    // http://www.nodemailer.com/
+    "transport": {
+      "service": "",
+      "auth": {
+        "user": "",
+        "pass": ""
+      }
+    }
+  },
+  "sms": {
+    // SMS provider config
+    "messagebird": {
+      "accessKey": "",
+      "originator": "",
+      "recipients": ""
+    }
+  },
+  "graf": {
+    "port": 3000
+  }
+}
